@@ -1,89 +1,195 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
-nav{
-    
-    background: #6f4e37;
-    height:60px;
+nav {
+  background: #6f4e37;
+  height: 60px;
+}
+.logo {
+  margin-left: 55px;
+  margin-top: -1px;
+}
+nav ul {
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: -81px;
+  margin-left: -82px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  margin-left: 42px;
+}
+a.active,
+a:hover {
+    background-color:orange;
+    height: auto;
+    width:auto;
+    border-radius:20px;
+    padding:5px
+}
 
+.services_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.services_content > h1 {
+  color: whitesmoke;
+  margin-top: 40px;
+  font-size: 50px;
+}
+.feature_data {
+  width: 90%;
+  margin-top: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.feature_cards {
+  width: 5%;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+  box-shadow: 0 1px 2px #527c7c;
+  transition: all 0.3s ease-in-out;
+}
+.feature_cards > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.feature_cards > p {
+  width: 80%;
+}
+.feature_cards:hover {
+  border-radius: 20px;
+  box-shadow: 0 5px 15px #527c7c;
+}
+.feature_cards::after {
+  box-shadow: 0 5px 15px #527c7c;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
 
+.heading {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
-.logo{
-    margin-left: 55px;
-    margin-top: -1px;
+.missioncard {
+  display: flex;
+  justify-content: center;
 }
-nav ul{
-    margin-right: 20px;
+.mission1 {
+  margin-left: 22px;
+  height: 436px;
+  margin-right: 61px;
+}
+.mission2 {
+  width: 500px;
+  font-size: 15px;
+}
+.cardimg {
+  margin-left: -141px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  box-shadow: 1px 2px 5px;
+  height: 495px;
+  margin-right: 21px;
+}
+.mission2 > h1 {
+  margin-top: 10px;
+}
+.mission2 > p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+
+  max-width: 1200px;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 170px;
+}
+.cardsdata > img {
+  border-radius: 6px;
+  border: 1px solid grey;
+  height: 236px;
+}
+.cardsdata {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.cardsdata:hover {
+  /* border:3px solid black */
+  height: auto;
+  width: auto;
+  box-shadow: 2px 1px 3px 2px;
+}
+
+.cards1 {
+  display: flex;
+  justify-content: space-evenly;
+
+  max-width: 1200px;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.footer{
+    height:300px;
+    width:auto;
+    background-color: black;
+    color:white
+}
+.footer > h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+.footer > p{
+    width: 50%;
+    text-align: center;
+    margin-left: 373px;
+    font-size: 20px;
+    margin-bottom: 27px;
+}
+.image{
     display: flex;
     justify-content: center;
-    margin-top: -71px;
-    margin-left: -82px;
-
 }
-nav ul li{
-display: inline-block;
-line-height: 80px;
-margin:0 5px
-}
-nav ul li a{
-    color: white;
-    font-size: 17px;
-    margin-left: 42px;
-}
-a.active,a:hover{
-
-}
-h1.centerh1 {
-    margin-left: 345px;
-    font-size: 51px;
-    padding-top: 118px;
-    color: white;
-}
-h2.centerh2 {
-    margin-left: 603px;
-    margin-top: 17px;
-    color: white;
-}
-h4.centerh4 {
-    margin-left: 553px;
-    margin-top: 10px;
-    color: white;
-}
-button.btn.btn-primary.mt-4.p-2 {
-    margin-left: 575px;
-    margin-top: 25px;
+.img{
     height: 50px;
-    width: 149px;
-    border-radius: 11px;
- 
-    background: #6f4e37;
-    border: none;
-    color: white;
+    margin: 20px;
+    border-radius: 10px;
 }
-h3 {
-    margin-left: 524px;
-    margin-top: 30px;
-    color: white;
-}
-
-.bg{
-    
-    height:500px
-}
-.center1{
-    padding-top: 58px;
-    margin-left: 425px;
-    font-size: 42px;
-
-}
-
-.h1service{
-    display: flex;
-    justify-content: center;
-    color:white;
-    padding-top:20px
+.footer > h6{
+    font-size:20px;
+    text-align: center;
 }

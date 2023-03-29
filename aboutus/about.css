@@ -1,219 +1,196 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
-nav{
-    /* background: #0082e6; */
-    background: #6f4e37;
-    height:60px;
+nav {
+  /* background: #0082e6; */
+  background: #6f4e37;
+  height: 60px;
+}
+.logo {
+  margin-left: 55px;
+  margin-top: -1px;
+}
+nav ul {
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: -81px;
+  margin-left: -82px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  margin-left: 42px;
+}
+a.active,
+a:hover {
+    background-color:orange;
+    height: auto;
+    width:auto;
+    border-radius:20px;
+    padding:5px
+}
 
+.card {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
 
+.cardp {
+  margin-top: 15px;
 }
-.logo{
-    margin-left: 55px;
-    margin-top: -1px;
+.cardimg {
+  width: 257px;
 }
-nav ul{
-    margin-right: 20px;
+.abouth1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.aboutpara {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+
+  font-size: 19px;
+}
+.h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 43px;
+}
+.h4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.cardsdata {
+  height: 350px;
+
+  width: 400px;
+  margin: 20px;
+}
+.cardsdata:hover {
+  height: 350px;
+
+  width: 400px;
+  box-shadow: 2px 1px 3px 2px;
+  border-radius: 20px;
+}
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.bimg {
+  margin-left: -350px;
+}
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+
+  max-width: 1200px;
+  width: 90%;
+
+  margin: auto;
+  margin-top: 70px;
+}
+.services > p {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.services > h1 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.cardsdata > h1 {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.cardsdata > p {
+  font-size: 20px;
+  margin-left: 45px;
+  margin-top: 27px;
+}
+.cardsdata > img {
+  margin-left: 128px;
+  height: 90px;
+  margin-top: 6px;
+  width: 95px;
+  box-shadow: 1px 2px 5px -1px;
+  margin-bottom: 7px;
+}
+.searchcard {
+  height: 39px;
+  width: 53px;
+  margin-left: 140px;
+  margin-left: 128px;
+  height: 90px;
+  margin-top: 6px;
+  width: 95px;
+  box-shadow: 1px 2px 5px -1px;
+  margin-bottom: 7px;
+}
+.missioncard {
+  display: flex;
+  justify-content: center;
+}
+.mission1 {
+  margin-left: 22px;
+  height: 436px;
+  margin-right: 61px;
+}
+.mission2 {
+  width: 500px;
+  font-size: 20px;
+}
+
+.footer{
+    height:300px;
+    width:auto;
+    background-color: black;
+    color:white
+}
+.footer > h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+.footer > p{
+    width: 50%;
+    text-align: center;
+    margin-left: 373px;
+    font-size: 20px;
+    margin-bottom: 27px;
+}
+.image{
     display: flex;
     justify-content: center;
-    margin-top: -71px;
-    margin-left: -82px;
-
 }
-nav ul li{
-display: inline-block;
-line-height: 80px;
-margin:0 5px
-}
-nav ul li a{
-    color: white;
-    font-size: 17px;
-    margin-left: 42px;
-}
-a.active,a:hover{
-
-}
-h1.centerh1 {
-    margin-left: 345px;
-    font-size: 51px;
-    padding-top: 118px;
-    color: white;
-}
-h2.centerh2 {
-    margin-left: 603px;
-    margin-top: 17px;
-    color: white;
-}
-h4.centerh4 {
-    margin-left: 553px;
-    margin-top: 10px;
-    color: white;
-}
-button.btn.btn-primary.mt-4.p-2 {
-    margin-left: 575px;
-    margin-top: 25px;
+.img{
     height: 50px;
-    width: 149px;
-    border-radius: 11px;
-    /* background: #0082e6; */
-    background: #6f4e37;
-    border: none;
-    color: white;
+    margin: 20px;
+    border-radius: 10px;
 }
-h3 {
-    margin-left: 524px;
-    margin-top: 30px;
-    color: white;
-}
-
-.bg{
-    /* background-color: #c6d3dd; */
-    /* background-color: #a5cbe7;
-    color: white; */
-    height:500px
-}
-.center1{
-    padding-top: 58px;
-    margin-left: 425px;
-    font-size: 42px;
-
-}
-.card{
-    display: flex;
-    justify-content: space-around;
-    margin-top:20px
-}
-
-
-.cardp{
-    margin-top:15px
-}
-.cardimg{
-    width: 257px;
-}
-.abouth1{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 25px;
- 
-}
-
-.aboutpara{
-    max-width: 1200px;
-    width:90%;
-    margin:auto;
- 
-  
-    font-size: 19px;
-}
-.h1{
-    display: flex;
-    justify-content: center;
-    margin-top: 43px;
-}
-.h4{
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-    margin-bottom:20px
-}
-.cardsdata{
-
-height:350px;
-
-width:400px;
-margin:20px;
-
-
-}
-.cardsdata:hover{
-
-    height:350px;
-
-    width:400px;
-    box-shadow: 1px 0px 1px 1px;
-    border-radius:20px
-}
-.container{
-    max-width: 1200px;
-    width:90%;
-    margin:auto;
-    display: flex;
-    justify-content: center;
-   
-}
-.bimg{
-    margin-left: -350px;
-}
-.cards{
-    display: flex;
-    justify-content: space-evenly;
- 
-    max-width: 1200px;
-    width:90%;
-    
-    margin:auto;
-    margin-top:70px;
-   
-}
-.servicepara{
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-}
-.serviceh1{
-    margin-top:30px;
-    display: flex;
-    justify-content: center;
-}
-.cardhead{
-    display: flex;
-    justify-content: center;
-    margin:10px
-}
-.cardpara{
-    
-    font-size: 20px;
-    margin-left: 45px;
-    margin-top: 27px;
-}
-.cardimgs{
-    margin-left: 128px;
-    height: 90px;
-    margin-top: 6px;
-    width: 95px;
-    box-shadow: 1px 2px 5px -1px;
-    margin-bottom: 7px;
-}
-.searchcard{
-
-    height: 39px;
-    width: 53px;
-    margin-left: 140px;
-    margin-left: 128px;
-    height: 90px;
-    margin-top: 6px;
-    width: 95px;
-    box-shadow: 1px 2px 5px -1px;
-    margin-bottom: 7px;
-}
-.missioncard{
-    display: flex;
-    justify-content: center;
-}
-.mission1{
-    margin-left: 22px;
-    height: 436px;
-    margin-right: 61px;
-}
-.mission2{
-    width:500px;
-    font-size: 20px;
-
+.footer > h6{
+    font-size:20px;
+    text-align: center;
 }
