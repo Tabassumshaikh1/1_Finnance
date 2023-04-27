@@ -14,13 +14,14 @@ nav{
 }
 .logo{
     margin-left: 55px;
-    margin-top: -1px;
+    margin-top: 6px;
+    border-radius: 30px;
 }
 nav ul{
     margin-right: 20px;
     display: flex;
     justify-content: center;
-    margin-top: -81px;
+    margin-top: -71px;
     margin-left: -82px;
 
 }
@@ -98,12 +99,12 @@ input[type=text] {
     box-sizing: border-box;
     border: 1px solid #555;
     outline: none;
-    margin-left:50px;
+    margin-left:20px;
     border-radius: 5px;
     height:40px
   }
 .label{
-    margin-left:50px;
+    margin-left:20px;
     font-size: 20px;
 }
 .card{
@@ -146,14 +147,18 @@ button#btn {
     border-radius: 10px;
 }
 #formimg{
-    width: 585px;
-    height: 450px;
-    margin-left: -105px;
+    
+   
     border: 1px solid grey;
     border-radius: 20px;
     box-shadow: 0px 1px 5px 2px;
     
-    margin-top: -19px;
+
+    max-inline-size: 100%;
+    block-size: auto;
+    width: 546px;
+    height: 422px;
+    margin-left: 10px;
 }
 #h2{
     display: flex;
@@ -168,6 +173,18 @@ button#btn {
     background-color: black;
     color:white
 }
+.footer.para{
+    width: 50%;
+  
+   
+    font-size: 20px;
+    margin-bottom: 27px;
+  }
+  p {
+  justify-content: center;
+  display: flex;
+  font-size: 17px;
+  }  
 .footer > h1{
     text-align: center;
     padding-top: 20px;
@@ -197,4 +214,92 @@ button#btn {
     border-left: 1px solid black;
     height: 455px;
   }
+  @media only screen and (min-width:0px ) {  
+  
+
+    nav ul {
+      margin-right: 20px;
+      display: flex;
+      justify-content: center;
+      margin-top: -76px;
+      margin-left: -82px; 
+    
+      
+    }
+    
+    
+    .logo {
+      margin-left: 7px;
+      margin-top: 7px;
+     
+      width: 50px;
+      height: 60px;
+      border-radius: 30px;
+     
+    }
+    nav {
+    
+      background: #6f4e37;
+      height: 70px;
+      overflow-y: hidden;
+    }
+    nav ul {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+     
+      
+      width: auto;
+      padding: auto;
+      margin: auto;
+      margin-top: -75px;
+      margin-left: 62px;
+    }
+    
+    
+    
+    nav ul li a {
+      display: inline-block;
+      line-height: 80px;
+      margin: 0 5px;
+     
+    }
+    nav ul li{
+      display: inline-block;
+      line-height: 80px;
+      margin: 0 5px;
+    }
+    
+   
+    .mission1 > img {
+      
+      max-inline-size: 100%;
+      block-size: auto;
+      height: 350px;
+      width: 500px;
+      border-radius: 10px;
+  }
+    a.active,
+    a:hover {
+        background-color:orange;
+      
+        border-radius:20px;
+        padding:5px
+    }
+    .text-center{
  
+      
+        margin-top: 13px;
+        text-align: center;
+          
+      }
+      button{
+        height: 58px;
+        width: 177px;
+        border-radius: 11px;
+        background: #6f4e37;
+        border: none;
+        color: white;
+      }
+    
+}

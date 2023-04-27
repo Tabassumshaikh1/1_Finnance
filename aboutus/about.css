@@ -4,6 +4,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 nav {
   /* background: #0082e6; */
@@ -12,13 +13,14 @@ nav {
 }
 .logo {
   margin-left: 55px;
-  margin-top: -1px;
+  margin-top: 6px;
+  border-radius: 30px;
 }
 nav ul {
   margin-right: 20px;
   display: flex;
   justify-content: center;
-  margin-top: -81px;
+  margin-top: -71px;
   margin-left: -82px;
 }
 nav ul li {
@@ -78,18 +80,18 @@ a:hover {
   margin-bottom: 20px;
 }
 .cardsdata {
-  height: 350px;
+  height: auto;
 
-  width: 400px;
+  width: auto;
   margin: 20px;
 }
-.cardsdata:hover {
+/* .cardsdata:hover {
   height: 350px;
 
   width: 400px;
   box-shadow: 2px 1px 3px 2px;
   border-radius: 20px;
-}
+} */
 .container {
   max-width: 1200px;
   width: 90%;
@@ -111,43 +113,48 @@ a:hover {
   margin-top: 70px;
 }
 .services > p {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  margin-top: 5px;
+  margin-top: 5px; */
+  text-align: center;
 }
 .services > h1 {
   margin-top: 30px;
   display: flex;
+  margin: auto;
   justify-content: center;
 }
 .cardsdata > h1 {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin: 10px;
 }
 .cardsdata > p {
   font-size: 20px;
-  margin-left: 45px;
+  
+  text-align: center;
   margin-top: 27px;
 }
 .cardsdata > img {
-  margin-left: 128px;
-  height: 90px;
-  margin-top: 6px;
-  width: 95px;
-  box-shadow: 1px 2px 5px -1px;
-  margin-bottom: 7px;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+  max-inline-size: 100%;
+  block-size: auto;
+
+  border-radius: 10px;
+ 
+ 
 }
 .searchcard {
-  height: 39px;
-  width: 53px;
-  margin-left: 140px;
-  margin-left: 128px;
-  height: 90px;
-  margin-top: 6px;
-  width: 95px;
-  box-shadow: 1px 2px 5px -1px;
-  margin-bottom: 7px;
+ 
+  max-inline-size: 100%;
+  block-size: auto;
+  height: 77px;
+  width: 155px;
+  border-radius: 10px;
 }
 .missioncard {
   display: flex;
@@ -160,37 +167,136 @@ a:hover {
 }
 .mission2 {
   width: 500px;
+  height:300px;
   font-size: 20px;
 }
 
 .footer{
-    height:300px;
-    width:auto;
-    background-color: black;
-    color:white
+  height:auto;
+  width:auto;
+  background-color: black;
+  color:white
 }
+
 .footer > h1{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 14px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 14px;
 }
-.footer > p{
-    width: 50%;
-    text-align: center;
-    margin-left: 373px;
-    font-size: 20px;
-    margin-bottom: 27px;
+.footer.para{
+  width: 50%;
+
+ 
+  font-size: 20px;
+  margin-bottom: 27px;
+}
+p {
+justify-content: center;
+display: flex;
+font-size: 17px;
+
 }
 .image{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .img{
-    height: 50px;
-    margin: 20px;
-    border-radius: 10px;
+  height: 50px;
+  margin: 20px;
+  border-radius: 10px;
 }
 .footer > h6{
-    font-size:20px;
-    text-align: center;
+  font-size:20px;
+  text-align: center;
 }
+
+@media only screen and (min-width:320px ) and (max-width:1200px) {  
+  
+
+  nav ul {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: -76px;
+    margin-left: -82px; 
+  
+    
+  }
+  
+  
+  .logo {
+    margin-left: 7px;
+    margin-top: 7px;
+   
+    width: 50px;
+    height: 60px;
+    border-radius: 30px;
+   
+  }
+  nav {
+  
+    background: #6f4e37;
+    height: 70px;
+    overflow-y: hidden;
+  }
+  nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+   
+    
+    width: auto;
+    padding: auto;
+    margin: auto;
+    margin-top: -75px;
+    margin-left: 62px;
+  }
+  
+  
+  
+  nav ul li a {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+   
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  
+ 
+  .mission1 > img {
+    
+    max-inline-size: 100%;
+    block-size: auto;
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+}
+  a.active,
+  a:hover {
+      background-color:orange;
+     
+      border-radius:20px;
+     
+  }
+  .mission2 {
+    width: 500px;
+    font-size: 20px;
+  
+  }
+  .mission2 h1{
+    text-align: center;
+  }
+
+  
+.cardsdata{
+ 
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  
+}
+  }  
